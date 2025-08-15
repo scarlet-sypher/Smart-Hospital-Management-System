@@ -13,7 +13,7 @@ void clearScreen() {
 }
 
 void pauseSystem() {
-    cout << "\nPress Enter to continue...\nType exit to exit";
+    cout << "\nPress Enter to continue...\nType exit to exit: ";
     cin.ignore();
     cin.get();
 }
