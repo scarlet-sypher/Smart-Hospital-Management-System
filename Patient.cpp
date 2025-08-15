@@ -1,5 +1,10 @@
 #include "Patient.h"
+#include <vector>
+#include <string>
 #include <sstream>
+#include <cstdlib>
+#include <iostream>
+  // For stoi (optional)
 
 Patient::Patient() : patientId(0), name(""), age(0), condition(""), bedNumber(-1), isAdmitted(false) {}
 
